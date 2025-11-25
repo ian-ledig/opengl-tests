@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run OpenGL App",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/ian/dev/opengl-tests/build/OpenGLBase",
+            "cwd": "/home/ian/dev/opengl-tests",
+            "args": [],
+            "preLaunchTask": "build-and-run-opengl",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "MIMode": "gdb"
+        }
+    ]
+}

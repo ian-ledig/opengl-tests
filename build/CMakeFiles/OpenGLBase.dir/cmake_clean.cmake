@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/OpenGLBase_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/OpenGLBase_autogen.dir/ParseCache.txt"
+  "OpenGLBase_autogen"
+  "CMakeFiles/OpenGLBase.dir/OpenGLBase_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/OpenGLBase_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/main.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/main.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/window.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/window.cpp.o.d"
+  "OpenGLBase"
+  "OpenGLBase.pdb"
+  "OpenGLBase_autogen/mocs_compilation.cpp"
+  "OpenGLBase_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/OpenGLBase.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

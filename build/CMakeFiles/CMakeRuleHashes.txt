@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+a3d7993f41518e69c6cf14120c7683f3 CMakeFiles/OpenGLBase_autogen
+a3d7993f41518e69c6cf14120c7683f3 CMakeFiles/OpenGLBase_autogen_timestamp_deps
+1a94b3ba03efdb61bda6670bcf4c87a3 OpenGLBase_autogen/timestamp
+8832ccf87505b7e3d75f4bba4304db70 third_party/spdlog/CMakeFiles/spdlog_autogen
+8832ccf87505b7e3d75f4bba4304db70 third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps
+29af81d02cfc74b6f5dbf227f6aa334c third_party/spdlog/spdlog_autogen/timestamp
