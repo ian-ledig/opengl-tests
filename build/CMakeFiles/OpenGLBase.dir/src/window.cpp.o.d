@@ -451,6 +451,7 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qinputmethod.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qlocale.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QMouseEvent \
  /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
  /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
  /usr/local/include/glm/glm.hpp /usr/local/include/glm/detail/_fixes.hpp \
@@ -586,7 +587,42 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /usr/local/include/glm/detail/func_integer.inl \
  /home/ian/dev/opengl-tests/src/component/triangle.h \
  /home/ian/dev/opengl-tests/src/component/component.h \
- /home/ian/dev/opengl-tests/build/OpenGLBase_autogen/include/ui_mainwindow.h \
+ /home/ian/dev/opengl-tests/src/utils/logger.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async_logger.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/logger.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/common.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/tweakme.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/null_mutex.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/fmt.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/log_msg.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/backtracer.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/circular_q.h \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/registry.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/thread_pool.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/mpmc_blocking_q.h \
+ /usr/include/c++/13/condition_variable \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/os.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/basic_file_sink.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/file_helper.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/base_sink.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/sink.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/formatter.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/console_globals.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/spdlog.h \
+ /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/version.h \
+ /home/ian/dev/opengl-tests/build/OpenGLBase_autogen/include/widget/ui_mainwindow.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QVariant \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qvariant.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QApplication \

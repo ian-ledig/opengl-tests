@@ -410,6 +410,30 @@ src/utils/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.s
 .PHONY : src/utils/logger.cpp.s
 
+src/widget/widgetColor.o: src/widget/widgetColor.cpp.o
+.PHONY : src/widget/widgetColor.o
+
+# target to build an object file
+src/widget/widgetColor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o
+.PHONY : src/widget/widgetColor.cpp.o
+
+src/widget/widgetColor.i: src/widget/widgetColor.cpp.i
+.PHONY : src/widget/widgetColor.i
+
+# target to preprocess a source file
+src/widget/widgetColor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.i
+.PHONY : src/widget/widgetColor.cpp.i
+
+src/widget/widgetColor.s: src/widget/widgetColor.cpp.s
+.PHONY : src/widget/widgetColor.s
+
+# target to generate assembly for a file
+src/widget/widgetColor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.s
+.PHONY : src/widget/widgetColor.cpp.s
+
 src/window.o: src/window.cpp.o
 .PHONY : src/window.o
 
@@ -475,6 +499,9 @@ help:
 	@echo "... src/utils/logger.o"
 	@echo "... src/utils/logger.i"
 	@echo "... src/utils/logger.s"
+	@echo "... src/widget/widgetColor.o"
+	@echo "... src/widget/widgetColor.i"
+	@echo "... src/widget/widgetColor.s"
 	@echo "... src/window.o"
 	@echo "... src/window.i"
 	@echo "... src/window.s"

@@ -1,6 +1,6 @@
 #include "window.h"
 #include "openGlWidget.h"
-#include "ui_mainwindow.h"
+#include "widget/ui_mainwindow.h"
 #include <QScreen>
 #include <QApplication>
 #include <QVBoxLayout>

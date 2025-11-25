@@ -5,8 +5,10 @@
 #include "gl/gl_utils.h"
 #include <QLabel>
 #include <QKeyEvent>
+#include <QMouseEvent>
 #include "gl/shader/graphic_shader.h"
 #include "component/triangle.h"
+#include "utils/logger.h"
 
 class OpenGLWidget : public QOpenGLWidget {
 public:
@@ -25,9 +27,12 @@ private:
 
     double _loadDuration;
 
+    std::vector<std::unique_ptr<Component>> _components;
+
     std::unique_ptr<GraphicShader> _shader;
     std::unique_ptr<Triangle> _triangle;
 
     void reload();
     virtual void keyPressEvent(QKeyEvent *event) override;
+    virtual void mousePressEvent(QMouseEvent *event) override;
 };

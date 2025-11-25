@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o.d"
   "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o"
   "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o.d"
+  "CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o"
+  "CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o.d"
   "CMakeFiles/OpenGLBase.dir/src/window.cpp.o"
   "CMakeFiles/OpenGLBase.dir/src/window.cpp.o.d"
   "OpenGLBase"

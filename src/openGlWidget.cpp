@@ -34,6 +34,8 @@ void OpenGLWidget::initializeGL()
     _triangle = std::make_unique<Triangle>();
     _triangle->init();
 
+    _components.push_back(std::move(_triangle));
+
     _loadEnd = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
     _loadDuration = duration.count() / 1000.0;
@@ -42,6 +44,10 @@ void OpenGLWidget::initializeGL()
 void OpenGLWidget::resizeGL(int w, int h)
 {
     GL(glViewport(0, 0, w, h));
+
+    for (const auto& component : _components) {
+        component->resize(w, h);
+    }
 }
 
 void OpenGLWidget::paintGL()
@@ -55,7 +61,11 @@ void OpenGLWidget::paintGL()
     GL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
 
     _shader->bind();
-    _triangle->draw();
+
+    for (const auto& component : _components) {
+        component->setUniforms(_shader.get());
+        component->draw();
+    }
 }
 
 void OpenGLWidget::reload()
@@ -69,8 +79,21 @@ void OpenGLWidget::keyPressEvent(QKeyEvent *event)
     switch (event->key()) {
         case Qt::Key_F5:
             reload();
-            break;
+            return;
         default:
             break;
     }
+
+    for (const auto& component : _components) {
+        component->keyPressEvent(event);
+    }
+}
+
+void OpenGLWidget::mousePressEvent(QMouseEvent *event)
+{
+    for (const auto& component : _components) {
+        component->mousePressEvent(event);
+    }
+    
+    QOpenGLWidget::mousePressEvent(event);
 }

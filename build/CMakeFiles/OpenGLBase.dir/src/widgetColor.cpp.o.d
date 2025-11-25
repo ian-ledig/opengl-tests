@@ -1,7 +1,8 @@
-CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
- /home/ian/dev/opengl-tests/src/main.cpp /usr/include/stdc-predef.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QApplication \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qapplication.h \
+CMakeFiles/OpenGLBase.dir/src/widgetColor.cpp.o: \
+ /home/ian/dev/opengl-tests/src/widgetColor.cpp \
+ /usr/include/stdc-predef.h /home/ian/dev/opengl-tests/src/widgetColor.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QDialog \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qdialog.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qtguiglobal.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qglobal.h \
@@ -174,9 +175,10 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qtguiexports.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgets-config.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreapplication.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstring.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qchar.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qnamespace.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcompare.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstdlibdetection.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcomparehelpers.h \
@@ -204,22 +206,13 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/array \
  /usr/include/c++/13/compare \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstringview.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbytearray.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qrefcount.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qnamespace.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtmetamacros.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydata.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qpair.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydatapointer.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydataops.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcontainertools_impl.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qxptype_traits.h \
- /usr/include/c++/13/cstring /usr/include/c++/13/iterator \
- /usr/include/c++/13/bits/stream_iterator.h /usr/include/c++/13/iosfwd \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -230,12 +223,8 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
- /usr/include/c++/13/bits/streambuf_iterator.h \
- /usr/include/c++/13/streambuf /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
- /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
@@ -252,6 +241,33 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobject.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstring.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qchar.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstringview.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbytearray.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qrefcount.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydata.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qpair.h /usr/include/string.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydatapointer.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qarraydataops.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qxptype_traits.h \
+ /usr/include/c++/13/cstring /usr/include/c++/13/iterator \
+ /usr/include/c++/13/bits/stream_iterator.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/c++/13/streambuf /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
+ /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/ostream_insert.h \
@@ -277,16 +293,6 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/bits/streambuf.tcc \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20functional.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20memory.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q17memory.h \
@@ -303,13 +309,6 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstringbuilder.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstringconverter.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qstringconverter_base.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreevent.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbasictimer.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qabstracteventdispatcher.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobject.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobjectdefs.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobjectdefs_impl.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qfunctionaltools_impl.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qlist.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qhashfunctions.h \
  /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
@@ -339,22 +338,18 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbindingstorage.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qeventloop.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qdeadlinetimer.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qnativeinterface.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreapplication_platform.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qwindowdefs.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qpoint.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qmargins.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcheckedint_impl.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q23utility.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20utility.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qaction.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qkeysequence.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qicon.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qsize.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qmargins.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qcursor.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qbitmap.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qpixmap.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qpaintdevice.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qrect.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qpoint.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qcolor.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qrgb.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qrgba64.h \
@@ -376,9 +371,6 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/include/c++/13/cassert \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20iterator.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qline.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qinputmethod.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qlocale.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qvariant.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qdebug.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtextstream.h \
@@ -396,14 +388,6 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qhash.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qvarlengtharray.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qalloc.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication_platform.h \
- /home/ian/dev/opengl-tests/src/window.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QMainWindow \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qmainwindow.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qaction.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qkeysequence.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qicon.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qpalette.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qbrush.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qfont.h \
@@ -412,50 +396,8 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qfontinfo.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qfontvariableaxis.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qsizepolicy.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/ian/dev/opengl-tests/src/openGlWidget.h /usr/include/GL/glew.h \
- /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtOpenGLWidgets/QOpenGLWidget \
- /home/ian/Qt/6.10.0/gcc_64/include/QtOpenGLWidgets/qopenglwidget.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QWidget \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QSurfaceFormat \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qsurfaceformat.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qopengl.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qopenglext.h \
- /usr/include/inttypes.h /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QLabel \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qlabel.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qframe.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qpicture.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qiodevice.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qtextdocument.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qurl.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QKeyEvent \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qevent.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qeventpoint.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qvector2d.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qvectornd.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qpointingdevice.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qinputdevice.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qscreen.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QList \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qlist.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QObject \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qobject.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QRect \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qrect.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QSize \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qsize.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QSizeF \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QTransform \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qtransform.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qscreen_platform.h \
- /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QMouseEvent \
- /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
- /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qcursor.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qbitmap.h \
  /usr/local/include/glm/glm.hpp /usr/local/include/glm/detail/_fixes.hpp \
  /usr/local/include/glm/detail/setup.hpp \
  /usr/local/include/glm/simd/platform.h /usr/include/c++/13/cfloat \
@@ -587,40 +529,34 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
- /home/ian/dev/opengl-tests/src/component/triangle.h \
- /home/ian/dev/opengl-tests/src/component/component.h \
- /home/ian/dev/opengl-tests/src/utils/logger.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async_logger.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/logger.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/common.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/tweakme.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/null_mutex.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/fmt.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/format.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/log_msg.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/backtracer.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/log_msg_buffer.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/circular_q.h \
- /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/registry.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/thread_pool.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/mpmc_blocking_q.h \
- /usr/include/c++/13/condition_variable \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/os.h \
- /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/basic_file_sink.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/file_helper.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/base_sink.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/sink.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/formatter.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/synchronous_factory.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/sinks/ansicolor_sink.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/console_globals.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/spdlog.h \
- /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/version.h
+ /home/ian/dev/opengl-tests/build/OpenGLBase_autogen/include/ui_widgetColor.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QVariant \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qvariant.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QApplication \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qapplication.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreapplication.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreevent.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbasictimer.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qeventloop.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qdeadlinetimer.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qnativeinterface.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcoreapplication_platform.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qinputmethod.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qlocale.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication_platform.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QHBoxLayout \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qlayout.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qlayoutitem.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qboxlayout.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qgridlayout.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QSpinBox \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qspinbox.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qabstractspinbox.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qvalidator.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qregularexpression.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QWidget \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
+ /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QSpinBox

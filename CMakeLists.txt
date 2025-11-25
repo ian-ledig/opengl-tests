@@ -40,6 +40,7 @@ add_executable(OpenGLBase
   src/main.cpp
   src/window.cpp
   src/openGlWidget.cpp
+  src/widget/widgetColor.cpp
 
   src/gl/gl_utils.cpp
   src/gl/shader/shader.cpp

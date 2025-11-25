@@ -454,6 +454,12 @@
 			null
 		],
 		[
+			"/home/ian/dev/opengl-tests/src/widget/widgetColor.h",
+			"MU",
+			"WFD7YQQOTJ/moc_widgetColor.cpp",
+			null
+		],
+		[
 			"/home/ian/dev/opengl-tests/src/window.h",
 			"MU",
 			"UVLADIE3JM/moc_window.cpp",
@@ -549,6 +555,7 @@
 		[ "/home/ian/dev/opengl-tests/src/main.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/openGlWidget.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/utils/logger.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/widget/widgetColor.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/window.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

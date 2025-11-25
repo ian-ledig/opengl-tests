@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ian/dev/opengl-tests/src/main.cpp" "CMakeFiles/OpenGLBase.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenGLBase.dir/src/main.cpp.o.d"
   "/home/ian/dev/opengl-tests/src/openGlWidget.cpp" "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o" "gcc" "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o.d"
   "/home/ian/dev/opengl-tests/src/utils/logger.cpp" "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o" "gcc" "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o.d"
+  "/home/ian/dev/opengl-tests/src/widget/widgetColor.cpp" "CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o" "gcc" "CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o.d"
   "/home/ian/dev/opengl-tests/src/window.cpp" "CMakeFiles/OpenGLBase.dir/src/window.cpp.o" "gcc" "CMakeFiles/OpenGLBase.dir/src/window.cpp.o.d"
   )
 
