@@ -14,8 +14,6 @@ OpenGLWidget::~OpenGLWidget() = default;
 
 void OpenGLWidget::initializeGL()
 {
-    _loadStart = std::chrono::high_resolution_clock::now();
-
     GLenum err = glewInit();
     if (err != GLEW_OK) {
         std::cerr << "Could not initialize GLEW: "
@@ -27,18 +25,7 @@ void OpenGLWidget::initializeGL()
 
     GL(glClearColor(0.2f, 0.3f, 0.3f, 1.0f));
 
-    // Shader
-    _shader = std::make_unique<GraphicShader>("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
-    _shader->init();
-
-    _cube = std::make_unique<Cube>("texture/lava.jpg");
-    _cube->init();
-
-    _components.push_back(std::move(_cube));
-
-    _loadEnd = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
-    _loadDuration = duration.count() / 1000.0;
+    setupScene();
 }
 
 void OpenGLWidget::resizeGL(int w, int h)
@@ -67,10 +54,39 @@ void OpenGLWidget::paintGL()
     }
 }
 
+void OpenGLWidget::setupScene()
+{
+    _loadStart = std::chrono::high_resolution_clock::now();
+
+    _components.clear();
+
+    _shader = std::make_unique<GraphicShader>("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
+    _shader->init();
+
+    auto cube = std::make_unique<Cube>("texture/lava.jpg");
+    cube->init();
+    _components.push_back(std::move(cube));
+
+    resizeGL(width(), height());
+
+    _loadEnd = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
+    _loadDuration = duration.count() / 1000.0;
+}
+
+void OpenGLWidget::teardownScene()
+{
+    _components.clear();
+    _shader.reset();
+}
+
 void OpenGLWidget::reload()
 {
-    initializeGL();
-    repaint();
+    makeCurrent();
+    teardownScene();
+    setupScene();
+    doneCurrent();
+    update();
 }
 
 void OpenGLWidget::keyPressEvent(QKeyEvent *event)

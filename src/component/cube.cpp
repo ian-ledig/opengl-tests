@@ -12,16 +12,29 @@ Cube::Cube(const std::string& texturePath) : Component(texturePath)
 {
 }
 
-Cube::~Cube() = default;
+Cube::~Cube()
+{
+    if (_VAO != 0) {
+        GL(glDeleteVertexArrays(1, &_VAO));
+        _VAO = 0;
+    }
+    if (_VBO != 0) {
+        GL(glDeleteBuffers(1, &_VBO));
+        _VBO = 0;
+    }
+    if (_EBO != 0) {
+        GL(glDeleteBuffers(1, &_EBO));
+        _EBO = 0;
+    }
+}
 
 void Cube::init()
 {
     GL(glGenVertexArrays(1, &_VAO));
     GL(glBindVertexArray(_VAO));
 
-    GLuint VBO;
-    GL(glGenBuffers(1, &VBO));
-    GL(glBindBuffer(GL_ARRAY_BUFFER, VBO));
+    GL(glGenBuffers(1, &_VBO));
+    GL(glBindBuffer(GL_ARRAY_BUFFER, _VBO));
     GL(glBufferData(GL_ARRAY_BUFFER, sizeof(_vertices), _vertices, GL_STATIC_DRAW));
 
     GL(glGenBuffers(1, &_EBO));

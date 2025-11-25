@@ -9,6 +9,8 @@
 #include "gl/shader/graphic_shader.h"
 #include "component/cube.h"
 #include "utils/logger.h"
+#include <memory>
+#include <vector>
 
 class OpenGLWidget : public QOpenGLWidget {
 public:
@@ -30,8 +32,9 @@ private:
     std::vector<std::unique_ptr<Component>> _components;
 
     std::unique_ptr<GraphicShader> _shader;
-    std::unique_ptr<Cube> _cube;
 
+    void setupScene();
+    void teardownScene();
     void reload();
     virtual void keyPressEvent(QKeyEvent *event) override;
     virtual void mousePressEvent(QMouseEvent *event) override;

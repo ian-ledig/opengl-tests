@@ -14,14 +14,15 @@ public:
 
     void init() override;
     void draw(Shader* shader) override;
-    
+
     void mousePressEvent(QMouseEvent *event) override;
 
     bool isPointInside(float x, float y) const override;
 
-private:    
-    GLuint _VAO;
-    GLuint _EBO;
+private:
+    GLuint _VAO = 0;
+    GLuint _VBO = 0;
+    GLuint _EBO = 0;
     float _vertices[20] = {
         // x,    y,    z,    u,   v
         0.5f,  0.5f, 0.0f, 1.0f, 1.0f,
