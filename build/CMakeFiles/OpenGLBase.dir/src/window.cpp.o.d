@@ -585,8 +585,9 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
- /home/ian/dev/opengl-tests/src/component/triangle.h \
+ /home/ian/dev/opengl-tests/src/component/cube.h \
  /home/ian/dev/opengl-tests/src/component/component.h \
+ /home/ian/dev/opengl-tests/src/gl/texture.h \
  /home/ian/dev/opengl-tests/src/utils/logger.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async_logger.h \

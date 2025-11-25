@@ -7,7 +7,7 @@
 #include <QKeyEvent>
 #include <QMouseEvent>
 #include "gl/shader/graphic_shader.h"
-#include "component/triangle.h"
+#include "component/cube.h"
 #include "utils/logger.h"
 
 class OpenGLWidget : public QOpenGLWidget {
@@ -30,7 +30,7 @@ private:
     std::vector<std::unique_ptr<Component>> _components;
 
     std::unique_ptr<GraphicShader> _shader;
-    std::unique_ptr<Triangle> _triangle;
+    std::unique_ptr<Cube> _cube;
 
     void reload();
     virtual void keyPressEvent(QKeyEvent *event) override;

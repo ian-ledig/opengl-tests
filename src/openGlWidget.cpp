@@ -31,10 +31,10 @@ void OpenGLWidget::initializeGL()
     _shader = std::make_unique<GraphicShader>("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
     _shader->init();
 
-    _triangle = std::make_unique<Triangle>();
-    _triangle->init();
+    _cube = std::make_unique<Cube>("texture/lava.jpg");
+    _cube->init();
 
-    _components.push_back(std::move(_triangle));
+    _components.push_back(std::move(_cube));
 
     _loadEnd = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
@@ -63,8 +63,7 @@ void OpenGLWidget::paintGL()
     _shader->bind();
 
     for (const auto& component : _components) {
-        component->setUniforms(_shader.get());
-        component->draw();
+        component->draw(_shader.get());
     }
 }
 

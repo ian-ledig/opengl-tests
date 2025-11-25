@@ -409,14 +409,16 @@ OpenGLBase_autogen/timestamp: \
 	/home/ian/dev/opengl-tests/build/OpenGLBase_autogen/moc_predefs.h \
 	/home/ian/dev/opengl-tests/src/component/component.cpp \
 	/home/ian/dev/opengl-tests/src/component/component.h \
-	/home/ian/dev/opengl-tests/src/component/triangle.cpp \
-	/home/ian/dev/opengl-tests/src/component/triangle.h \
+	/home/ian/dev/opengl-tests/src/component/cube.cpp \
+	/home/ian/dev/opengl-tests/src/component/cube.h \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.h \
 	/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
 	/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
 	/home/ian/dev/opengl-tests/src/gl/shader/shader.cpp \
 	/home/ian/dev/opengl-tests/src/gl/shader/shader.h \
+	/home/ian/dev/opengl-tests/src/gl/texture.cpp \
+	/home/ian/dev/opengl-tests/src/gl/texture.h \
 	/home/ian/dev/opengl-tests/src/main.cpp \
 	/home/ian/dev/opengl-tests/src/openGlWidget.cpp \
 	/home/ian/dev/opengl-tests/src/openGlWidget.h \

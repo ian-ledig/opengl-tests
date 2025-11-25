@@ -160,10 +160,24 @@ CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp -o CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.s
 
+CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
+CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o: /home/ian/dev/opengl-tests/src/gl/texture.cpp
+CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o -c /home/ian/dev/opengl-tests/src/gl/texture.cpp
+
+CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/dev/opengl-tests/src/gl/texture.cpp > CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.i
+
+CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/dev/opengl-tests/src/gl/texture.cpp -o CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.s
+
 CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
 CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o: /home/ian/dev/opengl-tests/src/gl/shader/shader.cpp
 CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o -c /home/ian/dev/opengl-tests/src/gl/shader/shader.cpp
 
 CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.i: cmake_force
@@ -177,7 +191,7 @@ CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.s: cmake_force
 CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
 CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o: /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp
 CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o -c /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp
 
 CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.i: cmake_force
@@ -191,7 +205,7 @@ CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.s: cmake_force
 CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
 CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o: /home/ian/dev/opengl-tests/src/utils/logger.cpp
 CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o -c /home/ian/dev/opengl-tests/src/utils/logger.cpp
 
 CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.i: cmake_force
@@ -205,7 +219,7 @@ CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.s: cmake_force
 CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
 CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o: /home/ian/dev/opengl-tests/src/component/component.cpp
 CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o -c /home/ian/dev/opengl-tests/src/component/component.cpp
 
 CMakeFiles/OpenGLBase.dir/src/component/component.cpp.i: cmake_force
@@ -216,19 +230,19 @@ CMakeFiles/OpenGLBase.dir/src/component/component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGLBase.dir/src/component/component.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/dev/opengl-tests/src/component/component.cpp -o CMakeFiles/OpenGLBase.dir/src/component/component.cpp.s
 
-CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
-CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o: /home/ian/dev/opengl-tests/src/component/triangle.cpp
-CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o -c /home/ian/dev/opengl-tests/src/component/triangle.cpp
+CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o: CMakeFiles/OpenGLBase.dir/flags.make
+CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o: /home/ian/dev/opengl-tests/src/component/cube.cpp
+CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o: CMakeFiles/OpenGLBase.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o -MF CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o.d -o CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o -c /home/ian/dev/opengl-tests/src/component/cube.cpp
 
-CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/dev/opengl-tests/src/component/triangle.cpp > CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.i
+CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/dev/opengl-tests/src/component/cube.cpp > CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.i
 
-CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/dev/opengl-tests/src/component/triangle.cpp -o CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.s
+CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/dev/opengl-tests/src/component/cube.cpp -o CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.s
 
 # Object files for target OpenGLBase
 OpenGLBase_OBJECTS = \
@@ -238,11 +252,12 @@ OpenGLBase_OBJECTS = \
 "CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.o" \
+"CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o" \
 "CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o" \
-"CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o"
+"CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o"
 
 # External object files for target OpenGLBase
 OpenGLBase_EXTERNAL_OBJECTS =
@@ -253,11 +268,12 @@ OpenGLBase: CMakeFiles/OpenGLBase.dir/src/window.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/widget/widgetColor.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.o
+OpenGLBase: CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/gl/shader/graphic_shader.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o
-OpenGLBase: CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o
+OpenGLBase: CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o
 OpenGLBase: CMakeFiles/OpenGLBase.dir/build.make
 OpenGLBase: /home/ian/Qt/6.10.0/gcc_64/lib/libQt6OpenGLWidgets.so.6.10.0
 OpenGLBase: /usr/lib/x86_64-linux-gnu/libOpenGL.so
@@ -272,7 +288,7 @@ OpenGLBase: /usr/lib/x86_64-linux-gnu/libGLX.so
 OpenGLBase: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 OpenGLBase: /home/ian/Qt/6.10.0/gcc_64/lib/libQt6Core.so.6.10.0
 OpenGLBase: CMakeFiles/OpenGLBase.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable OpenGLBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ian/dev/opengl-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable OpenGLBase"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLBase.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

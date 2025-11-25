@@ -43,13 +43,14 @@ add_executable(OpenGLBase
   src/widget/widgetColor.cpp
 
   src/gl/gl_utils.cpp
+  src/gl/texture.cpp
   src/gl/shader/shader.cpp
   src/gl/shader/graphic_shader.cpp
 
   src/utils/logger.cpp
 
   src/component/component.cpp
-  src/component/triangle.cpp
+  src/component/cube.cpp
 )
 
 set_property(TARGET OpenGLBase PROPERTY CXX_STANDARD 17)

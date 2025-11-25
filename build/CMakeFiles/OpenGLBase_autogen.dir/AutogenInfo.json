@@ -418,9 +418,9 @@
 			null
 		],
 		[
-			"/home/ian/dev/opengl-tests/src/component/triangle.h",
+			"/home/ian/dev/opengl-tests/src/component/cube.h",
 			"MU",
-			"FHOFCCN7FJ/moc_triangle.cpp",
+			"FHOFCCN7FJ/moc_cube.cpp",
 			null
 		],
 		[
@@ -439,6 +439,12 @@
 			"/home/ian/dev/opengl-tests/src/gl/shader/shader.h",
 			"MU",
 			"3EO3HGL2XD/moc_shader.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/gl/texture.h",
+			"MU",
+			"FONZTXGS3D/moc_texture.cpp",
 			null
 		],
 		[
@@ -544,7 +550,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/ian/dev/opengl-tests/src/component/component.cpp", "MU", null ],
-		[ "/home/ian/dev/opengl-tests/src/component/triangle.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/component/cube.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp", "MU", null ],
 		[
 			"/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp",
@@ -552,6 +558,7 @@
 			null
 		],
 		[ "/home/ian/dev/opengl-tests/src/gl/shader/shader.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/gl/texture.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/main.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/openGlWidget.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/utils/logger.cpp", "MU", null ],

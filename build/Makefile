@@ -242,29 +242,29 @@ src/component/component.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/component.cpp.s
 .PHONY : src/component/component.cpp.s
 
-src/component/triangle.o: src/component/triangle.cpp.o
-.PHONY : src/component/triangle.o
+src/component/cube.o: src/component/cube.cpp.o
+.PHONY : src/component/cube.o
 
 # target to build an object file
-src/component/triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o
-.PHONY : src/component/triangle.cpp.o
+src/component/cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.o
+.PHONY : src/component/cube.cpp.o
 
-src/component/triangle.i: src/component/triangle.cpp.i
-.PHONY : src/component/triangle.i
+src/component/cube.i: src/component/cube.cpp.i
+.PHONY : src/component/cube.i
 
 # target to preprocess a source file
-src/component/triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.i
-.PHONY : src/component/triangle.cpp.i
+src/component/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.i
+.PHONY : src/component/cube.cpp.i
 
-src/component/triangle.s: src/component/triangle.cpp.s
-.PHONY : src/component/triangle.s
+src/component/cube.s: src/component/cube.cpp.s
+.PHONY : src/component/cube.s
 
 # target to generate assembly for a file
-src/component/triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.s
-.PHONY : src/component/triangle.cpp.s
+src/component/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.s
+.PHONY : src/component/cube.cpp.s
 
 src/gl/gl_utils.o: src/gl/gl_utils.cpp.o
 .PHONY : src/gl/gl_utils.o
@@ -337,6 +337,30 @@ src/gl/shader/shader.s: src/gl/shader/shader.cpp.s
 src/gl/shader/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/gl/shader/shader.cpp.s
 .PHONY : src/gl/shader/shader.cpp.s
+
+src/gl/texture.o: src/gl/texture.cpp.o
+.PHONY : src/gl/texture.o
+
+# target to build an object file
+src/gl/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.o
+.PHONY : src/gl/texture.cpp.o
+
+src/gl/texture.i: src/gl/texture.cpp.i
+.PHONY : src/gl/texture.i
+
+# target to preprocess a source file
+src/gl/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.i
+.PHONY : src/gl/texture.cpp.i
+
+src/gl/texture.s: src/gl/texture.cpp.s
+.PHONY : src/gl/texture.s
+
+# target to generate assembly for a file
+src/gl/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/gl/texture.cpp.s
+.PHONY : src/gl/texture.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -478,9 +502,9 @@ help:
 	@echo "... src/component/component.o"
 	@echo "... src/component/component.i"
 	@echo "... src/component/component.s"
-	@echo "... src/component/triangle.o"
-	@echo "... src/component/triangle.i"
-	@echo "... src/component/triangle.s"
+	@echo "... src/component/cube.o"
+	@echo "... src/component/cube.i"
+	@echo "... src/component/cube.s"
 	@echo "... src/gl/gl_utils.o"
 	@echo "... src/gl/gl_utils.i"
 	@echo "... src/gl/gl_utils.s"
@@ -490,6 +514,9 @@ help:
 	@echo "... src/gl/shader/shader.o"
 	@echo "... src/gl/shader/shader.i"
 	@echo "... src/gl/shader/shader.s"
+	@echo "... src/gl/texture.o"
+	@echo "... src/gl/texture.i"
+	@echo "... src/gl/texture.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

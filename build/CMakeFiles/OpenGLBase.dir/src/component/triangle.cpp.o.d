@@ -546,6 +546,7 @@ CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qguiapplication_platform.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qkeysequence.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/QMouseEvent \
+ /home/ian/dev/opengl-tests/src/gl/texture.h \
  /home/ian/dev/opengl-tests/src/widget/widgetColor.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QDialog \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qdialog.h \

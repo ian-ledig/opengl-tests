@@ -5,27 +5,32 @@
 #include "gl/shader/shader.h"
 #include <QKeyEvent>
 #include <QMouseEvent>
+#include "gl/texture.h"
 
 class Component {
 public:
     Component();
+    Component(const std::string& texturePath);
     ~Component();
 
     virtual void resize(int w, int h);
     virtual void init();
-    virtual void draw();
-    virtual void setUniforms(Shader* shader);
+    virtual void draw(Shader* shader);
 
     virtual void keyPressEvent(QKeyEvent *event);
     virtual void mousePressEvent(QMouseEvent *event);
 
     virtual bool isPointInside(float x, float y) const;
 
-    // Window size accessors
-    int width() const { return _width; }
-    int height() const { return _height; }
+    int getWidth() const { return _width; }
+    int getHeight() const { return _height; }
+    gl::Texture2D* getTexture() const { return _texture.get(); }
 
-protected:
+private:
     int _width = 0;
     int _height = 0;
+
+    std::unique_ptr<gl::Texture2D> _texture;
+
+    void loadTexture(const std::string& texturePath);
 };
