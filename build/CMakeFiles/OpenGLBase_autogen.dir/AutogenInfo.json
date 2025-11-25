@@ -412,6 +412,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/ian/dev/opengl-tests/src/component/component.h",
+			"MU",
+			"FHOFCCN7FJ/moc_component.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/component/triangle.h",
+			"MU",
+			"FHOFCCN7FJ/moc_triangle.cpp",
+			null
+		],
+		[
 			"/home/ian/dev/opengl-tests/src/gl/gl_utils.h",
 			"MU",
 			"FONZTXGS3D/moc_gl_utils.cpp",
@@ -525,6 +537,8 @@
 	"SETTINGS_FILE" : "/home/ian/dev/opengl-tests/build/CMakeFiles/OpenGLBase_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/ian/dev/opengl-tests/src/component/component.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/component/triangle.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp", "MU", null ],
 		[
 			"/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp",

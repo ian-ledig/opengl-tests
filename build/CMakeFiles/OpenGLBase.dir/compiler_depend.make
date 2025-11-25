@@ -249,6 +249,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -550,6 +554,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -851,6 +859,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -1152,6 +1164,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -1453,6 +1469,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -1754,6 +1774,10 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -2055,6 +2079,620 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
   CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+  /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
+  /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
+  /home/ian/dev/opengl-tests/src/gl/shader/shader.cpp \
+  /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
+  /home/ian/dev/opengl-tests/src/main.cpp \
+  /home/ian/dev/opengl-tests/src/mainwindow.ui \
+  /home/ian/dev/opengl-tests/src/openGlWidget.cpp \
+  /home/ian/dev/opengl-tests/src/openGlWidget.h \
+  /home/ian/dev/opengl-tests/src/utils/logger.cpp \
+  /home/ian/dev/opengl-tests/src/utils/logger.h \
+  /home/ian/dev/opengl-tests/src/window.cpp \
+  /home/ian/dev/opengl-tests/src/window.h \
+  /usr/bin/cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCUDAInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
+  /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
+  /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
+  /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-CUDA.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA.cmake \
+  /usr/share/cmake-3.28/Modules/FindGLEW.cmake \
+  /usr/share/cmake-3.28/Modules/FindOpenGL.cmake \
+  /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+  /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+  /usr/share/cmake-3.28/Modules/FindThreads.cmake \
+  /usr/share/cmake-3.28/Modules/FindVulkan.cmake \
+  /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+  /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+  /usr/share/cmake/glm/glmConfig.cmake \
+  /usr/share/cmake/glm/glmConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /home/ian/dev/opengl-tests/CMakeLists.txt \
+  CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+  /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
+  /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
+  /home/ian/dev/opengl-tests/src/gl/shader/shader.cpp \
+  /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
+  /home/ian/dev/opengl-tests/src/main.cpp \
+  /home/ian/dev/opengl-tests/src/mainwindow.ui \
+  /home/ian/dev/opengl-tests/src/openGlWidget.cpp \
+  /home/ian/dev/opengl-tests/src/openGlWidget.h \
+  /home/ian/dev/opengl-tests/src/utils/logger.cpp \
+  /home/ian/dev/opengl-tests/src/utils/logger.h \
+  /home/ian/dev/opengl-tests/src/window.cpp \
+  /home/ian/dev/opengl-tests/src/window.h \
+  /usr/bin/cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCUDAInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+  /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
+  /usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
+  /usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
+  /usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-CUDA.cmake \
+  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA.cmake \
+  /usr/share/cmake-3.28/Modules/FindGLEW.cmake \
+  /usr/share/cmake-3.28/Modules/FindOpenGL.cmake \
+  /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+  /usr/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+  /usr/share/cmake-3.28/Modules/FindThreads.cmake \
+  /usr/share/cmake-3.28/Modules/FindVulkan.cmake \
+  /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+  /usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
+  /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+  /usr/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+  /usr/share/cmake/glm/glmConfig.cmake \
+  /usr/share/cmake/glm/glmConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeature.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtInstallPaths.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /home/ian/dev/opengl-tests/CMakeLists.txt \
+  CMakeFiles/3.28.3/CMakeCUDACompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -2111,6 +2749,73 @@ OpenGLBase_autogen/timestamp: /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapA
 
 CMakeFiles/OpenGLBase.dir/OpenGLBase_autogen/mocs_compilation.cpp.o: OpenGLBase_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
+
+CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o: /home/ian/dev/opengl-tests/src/component/component.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o: /home/ian/dev/opengl-tests/src/component/triangle.cpp \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
+  /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+  /usr/include/GL/gl.h \
+  /usr/include/GL/glew.h \
+  /usr/include/GL/glu.h \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 CMakeFiles/OpenGLBase.dir/src/gl/gl_utils.cpp.o: /home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
@@ -3516,6 +4221,8 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: /home/ian/dev/opengl-tests/src/main.cp
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
   /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
@@ -4154,6 +4861,8 @@ CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o: /home/ian/dev/opengl-tests/src
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
   /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
@@ -5150,6 +5859,8 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: /home/ian/dev/opengl-tests/src/windo
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qwidget.h \
   OpenGLBase_autogen/include/ui_mainwindow.h \
+  /home/ian/dev/opengl-tests/src/component/component.h \
+  /home/ian/dev/opengl-tests/src/component/triangle.h \
   /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
   /home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
   /home/ian/dev/opengl-tests/src/gl/shader/shader.h \
@@ -5774,8 +6485,6 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: /home/ian/dev/opengl-tests/src/windo
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcompilerdetection.h:
 
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcomparehelpers.h:
-
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcompare_impl.h:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcompare.h:
@@ -6142,8 +6851,6 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /usr/local/include/glm/detail/type_mat2x2.inl:
 
-/usr/local/include/glm/detail/type_half.inl:
-
 /usr/local/include/glm/detail/type_half.hpp:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qutf8stringview.h:
@@ -6248,13 +6955,9 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
 /usr/local/include/glm/ext/vector_bool2.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -6266,11 +6969,9 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/home/ian/dev/opengl-tests/src/mainwindow.ui:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtresource.h:
-
-/usr/include/time.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/local/include/glm/ext/vector_double4.hpp:
 
@@ -6316,6 +7017,14 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake:
 
+/usr/local/include/glm/detail/type_half.inl:
+
+/home/ian/dev/opengl-tests/src/component/component.cpp:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20memory.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessAliasTargets.cmake:
 
 /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/mpmc_blocking_q.h:
@@ -6339,6 +7048,12 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcomparehelpers.h:
+
+/home/ian/dev/opengl-tests/src/component/triangle.cpp:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeature.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20utility.h:
 
@@ -6372,6 +7087,8 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake:
 
+/home/ian/dev/opengl-tests/src/component/triangle.h:
+
 /usr/include/c++/13/pstl/glue_memory_defs.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
@@ -6389,6 +7106,8 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 /usr/local/include/glm/fwd.hpp:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake:
+
+/home/ian/dev/opengl-tests/src/component/component.h:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake:
 
@@ -6421,6 +7140,12 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbytearrayalgorithms.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
@@ -6486,8 +7211,6 @@ OpenGLBase_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
-/home/ian/dev/opengl-tests/src/openGlWidget.cpp:
-
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qdeadlinetimer.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
@@ -6542,6 +7265,10 @@ OpenGLBase_autogen/mocs_compilation.cpp:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake:
 
+/usr/include/c++/13/bits/char_traits.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+
 /home/ian/Qt/6.10.0/gcc_64/include/QtOpenGLWidgets/qopenglwidget.h:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
@@ -6590,6 +7317,12 @@ OpenGLBase_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/debug/debug.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/linux/errno.h:
+
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qrect.h:
@@ -6598,9 +7331,9 @@ OpenGLBase_autogen/mocs_compilation.cpp:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtmetamacros.h:
 
@@ -6692,6 +7425,8 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake:
 
 /usr/include/alloca.h:
@@ -6721,8 +7456,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtFeature.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtcore-config.h:
 
@@ -6834,12 +7567,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
-
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QRect:
 
 /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/details/backtracer.h:
@@ -6864,6 +7591,12 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
+/home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qgridlayout.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
@@ -6873,10 +7606,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
 /usr/include/c++/13/bits/utility.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/13/bits/regex_automaton.tcc:
 
@@ -6891,12 +7620,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
@@ -6939,6 +7662,12 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
+
+/usr/include/c++/13/bits/predefined_ops.h:
 
 /usr/local/include/glm/ext/vector_int3.hpp:
 
@@ -7084,10 +7813,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
-
 /usr/include/c++/13/version:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qcontainerfwd.h:
@@ -7108,8 +7833,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake:
 
-/home/ian/dev/opengl-tests/src/gl/shader/shader.h:
-
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
@@ -7126,17 +7849,25 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake:
 
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake:
 
 /usr/local/include/glm/ext/matrix_float3x2.hpp:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
+
+/home/ian/dev/opengl-tests/src/gl/shader/shader.h:
+
+/home/ian/dev/opengl-tests/src/mainwindow.ui:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qtresource.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/home/ian/dev/opengl-tests/src/openGlWidget.cpp:
 
 /usr/include/c++/13/variant:
 
@@ -7224,14 +7955,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake:
@@ -7282,6 +8005,84 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/GL/glu.h:
 
+/usr/include/GL/gl.h:
+
+/usr/include/c++/13/cstddef:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/bits/regex_automaton.h:
+
+/usr/include/stdint.h:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qfunctionpointer.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
+
+/usr/include/endian.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/home/ian/Qt/6.10.0/gcc_64/include/QtCore/q17memory.h:
+
+/usr/local/include/glm/detail/type_quat.inl:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/13/string:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/local/include/glm/packing.hpp:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/local/include/glm/detail/func_trigonometric.inl:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
 /usr/include/c++/13/numeric:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
@@ -7294,25 +8095,7 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
 
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 /usr/include/c++/13/bits/basic_ios.tcc:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/q20memory.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/select-decl.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
 
@@ -7362,12 +8145,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
-
-/usr/local/include/glm/detail/func_trigonometric.inl:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
 /usr/local/include/glm/ext/matrix_float3x4.hpp:
 
 /usr/local/include/glm/ext/matrix_float2x2_precision.hpp:
@@ -7398,8 +8175,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/bits/node_handle.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/c++/13/bits/ostream.tcc:
@@ -7417,12 +8192,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake:
 
 /usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/bits/regex_automaton.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake:
-
-/usr/include/c++/13/pstl/pstl_config.h:
 
 /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbasictimer.h:
 
@@ -7504,10 +8273,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/c++/13/cctype:
 
-/usr/include/GL/gl.h:
-
-/usr/include/c++/13/cstddef:
-
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -7576,16 +8341,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/c++/13/stdexcept:
 
-/usr/include/features.h:
-
-/usr/include/c++/13/string:
-
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/q17memory.h:
-
-/usr/local/include/glm/detail/type_quat.inl:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/c++/13/system_error:
@@ -7593,14 +8348,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 /usr/include/c++/13/cfloat:
 
 /usr/include/ctype.h:
-
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qfunctionpointer.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
 
 /usr/include/errno.h:
 
@@ -7648,16 +8395,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/local/include/glm/packing.hpp:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/local/include/glm/detail/type_mat2x4.inl:
@@ -7684,8 +8421,6 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -7710,9 +8445,9 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 
 /home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
-/usr/include/c++/13/type_traits:
-
 /usr/include/features-time64.h:
+
+/usr/include/c++/13/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -7733,19 +8468,3 @@ CMakeFiles/3.28.3/CMakeCUDACompiler.cmake:
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qgridlayout.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/home/ian/Qt/6.10.0/gcc_64/include/QtCore/qbytearrayalgorithms.h:
-
-/home/ian/Qt/6.10.0/gcc_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:

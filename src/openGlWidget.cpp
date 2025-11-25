@@ -3,7 +3,6 @@
 #include <chrono>
 #include <iomanip>
 
-
 OpenGLWidget::OpenGLWidget()
 {
     setFocusPolicy(Qt::StrongFocus);
@@ -26,30 +25,14 @@ void OpenGLWidget::initializeGL()
         std::cout << "Glew initialized" << std::endl;
     }
 
+    GL(glClearColor(0.2f, 0.3f, 0.3f, 1.0f));
+
     // Shader
     _shader = std::make_unique<GraphicShader>("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
     _shader->init();
 
-    // Triangle
-    float vertices[] = {
-        -0.5f, -0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f,
-         0.0f,  0.5f, 0.0f
-    };
-
-    GLuint VBO;
-    GL(glGenBuffers(1, &VBO));
-    GL(glBindBuffer(GL_ARRAY_BUFFER, VBO));
-    GL(glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW));
-
-    GL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0));
-    GL(glEnableVertexAttribArray(0));
-
-    GL(glGenVertexArrays(1, &_VAO));
-    GL(glBindVertexArray(_VAO));
-    GL(glBindBuffer(GL_ARRAY_BUFFER, VBO));
-    GL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0));
-    GL(glEnableVertexAttribArray(0));
+    _triangle = std::make_unique<Triangle>();
+    _triangle->init();
 
     _loadEnd = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
@@ -72,8 +55,7 @@ void OpenGLWidget::paintGL()
     GL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
 
     _shader->bind();
-    GL(glBindVertexArray(_VAO));
-    GL(glDrawArrays(GL_TRIANGLES, 0, 3));
+    _triangle->draw();
 }
 
 void OpenGLWidget::reload()

@@ -6,6 +6,7 @@
 #include <QLabel>
 #include <QKeyEvent>
 #include "gl/shader/graphic_shader.h"
+#include "component/triangle.h"
 
 class OpenGLWidget : public QOpenGLWidget {
 public:
@@ -21,9 +22,11 @@ public:
 private:
     std::chrono::high_resolution_clock::time_point _loadStart;
     std::chrono::high_resolution_clock::time_point _loadEnd;
+
     double _loadDuration;
+
     std::unique_ptr<GraphicShader> _shader;
-    GLuint _VAO;
+    std::unique_ptr<Triangle> _triangle;
 
     void reload();
     virtual void keyPressEvent(QKeyEvent *event) override;

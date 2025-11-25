@@ -585,4 +585,6 @@ CMakeFiles/OpenGLBase.dir/src/main.cpp.o: \
  /usr/local/include/glm/detail/type_half.hpp \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
- /usr/local/include/glm/detail/func_integer.inl
+ /usr/local/include/glm/detail/func_integer.inl \
+ /home/ian/dev/opengl-tests/src/component/triangle.h \
+ /home/ian/dev/opengl-tests/src/component/component.h

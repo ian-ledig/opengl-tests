@@ -584,6 +584,8 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
+ /home/ian/dev/opengl-tests/src/component/triangle.h \
+ /home/ian/dev/opengl-tests/src/component/component.h \
  /home/ian/dev/opengl-tests/build/OpenGLBase_autogen/include/ui_mainwindow.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/QVariant \
  /home/ian/Qt/6.10.0/gcc_64/include/QtCore/qvariant.h \

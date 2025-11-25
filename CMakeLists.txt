@@ -46,6 +46,9 @@ add_executable(OpenGLBase
   src/gl/shader/graphic_shader.cpp
 
   src/utils/logger.cpp
+
+  src/component/component.cpp
+  src/component/triangle.cpp
 )
 
 set_property(TARGET OpenGLBase PROPERTY CXX_STANDARD 17)

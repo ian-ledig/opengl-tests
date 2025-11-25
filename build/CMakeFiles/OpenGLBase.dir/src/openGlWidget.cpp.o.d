@@ -581,6 +581,8 @@ CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o: \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
+ /home/ian/dev/opengl-tests/src/component/triangle.h \
+ /home/ian/dev/opengl-tests/src/component/component.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \

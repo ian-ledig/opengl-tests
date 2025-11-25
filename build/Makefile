@@ -218,6 +218,54 @@ OpenGLBase_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/OpenGLBase_autogen/mocs_compilation.cpp.s
 .PHONY : OpenGLBase_autogen/mocs_compilation.cpp.s
 
+src/component/component.o: src/component/component.cpp.o
+.PHONY : src/component/component.o
+
+# target to build an object file
+src/component/component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/component.cpp.o
+.PHONY : src/component/component.cpp.o
+
+src/component/component.i: src/component/component.cpp.i
+.PHONY : src/component/component.i
+
+# target to preprocess a source file
+src/component/component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/component.cpp.i
+.PHONY : src/component/component.cpp.i
+
+src/component/component.s: src/component/component.cpp.s
+.PHONY : src/component/component.s
+
+# target to generate assembly for a file
+src/component/component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/component.cpp.s
+.PHONY : src/component/component.cpp.s
+
+src/component/triangle.o: src/component/triangle.cpp.o
+.PHONY : src/component/triangle.o
+
+# target to build an object file
+src/component/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.o
+.PHONY : src/component/triangle.cpp.o
+
+src/component/triangle.i: src/component/triangle.cpp.i
+.PHONY : src/component/triangle.i
+
+# target to preprocess a source file
+src/component/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.i
+.PHONY : src/component/triangle.cpp.i
+
+src/component/triangle.s: src/component/triangle.cpp.s
+.PHONY : src/component/triangle.s
+
+# target to generate assembly for a file
+src/component/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/triangle.cpp.s
+.PHONY : src/component/triangle.cpp.s
+
 src/gl/gl_utils.o: src/gl/gl_utils.cpp.o
 .PHONY : src/gl/gl_utils.o
 
@@ -403,6 +451,12 @@ help:
 	@echo "... OpenGLBase_autogen/mocs_compilation.o"
 	@echo "... OpenGLBase_autogen/mocs_compilation.i"
 	@echo "... OpenGLBase_autogen/mocs_compilation.s"
+	@echo "... src/component/component.o"
+	@echo "... src/component/component.i"
+	@echo "... src/component/component.s"
+	@echo "... src/component/triangle.o"
+	@echo "... src/component/triangle.i"
+	@echo "... src/component/triangle.s"
 	@echo "... src/gl/gl_utils.o"
 	@echo "... src/gl/gl_utils.i"
 	@echo "... src/gl/gl_utils.s"
