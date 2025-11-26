@@ -583,8 +583,22 @@ CMakeFiles/OpenGLBase.dir/src/openGlWidget.cpp.o: \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
  /home/ian/dev/opengl-tests/src/component/cube.h \
+ /home/ian/dev/opengl-tests/src/component/drawableComponent.h \
  /home/ian/dev/opengl-tests/src/component/component.h \
  /home/ian/dev/opengl-tests/src/gl/texture.h \
+ /usr/local/include/glm/gtc/matrix_transform.hpp \
+ /usr/local/include/glm/ext/matrix_projection.hpp \
+ /usr/local/include/glm/gtc/constants.hpp \
+ /usr/local/include/glm/ext/scalar_constants.hpp \
+ /usr/local/include/glm/ext/scalar_constants.inl \
+ /usr/local/include/glm/gtc/constants.inl \
+ /usr/local/include/glm/ext/matrix_projection.inl \
+ /usr/local/include/glm/ext/matrix_clip_space.hpp \
+ /usr/local/include/glm/ext/matrix_clip_space.inl \
+ /usr/local/include/glm/ext/matrix_transform.hpp \
+ /usr/local/include/glm/ext/matrix_transform.inl \
+ /usr/local/include/glm/gtc/matrix_transform.inl \
+ /home/ian/dev/opengl-tests/src/component/camera.h \
  /home/ian/dev/opengl-tests/src/utils/logger.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async_logger.h \

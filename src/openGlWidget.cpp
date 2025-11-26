@@ -1,9 +1,10 @@
 #include "openGlWidget.h"
+#include "component/drawableComponent.h"
 #include <iostream>
 #include <chrono>
 #include <iomanip>
 
-OpenGLWidget::OpenGLWidget()
+OpenGLWidget::OpenGLWidget() : _camera(nullptr)
 {
     setFocusPolicy(Qt::StrongFocus);
     setFocus();
@@ -32,8 +33,13 @@ void OpenGLWidget::resizeGL(int w, int h)
 {
     GL(glViewport(0, 0, w, h));
 
+
     for (const auto& component : _components) {
         component->resize(w, h);
+    }
+
+    if(_camera) {
+        _projection = _camera->getProjection();    
     }
 }
 
@@ -49,7 +55,18 @@ void OpenGLWidget::paintGL()
 
     _shader->bind();
 
+    glm::mat4 view = glm::mat4(1.0f);
+    if(_camera) {
+        view = _camera->getView();
+        _shader->setUniformAttrib("projection", _projection);
+        _shader->setUniformAttrib("view", view);
+    }
+
     for (const auto& component : _components) {
+        if (auto* drawable = dynamic_cast<DrawableComponent*>(component.get())) {
+            drawable->setProjectionMatrix(_projection);
+            drawable->setViewMatrix(view);
+        }
         component->draw(_shader.get());
     }
 }
@@ -62,6 +79,10 @@ void OpenGLWidget::setupScene()
 
     _shader = std::make_unique<GraphicShader>("shader/vertex_shader.glsl", "shader/fragment_shader.glsl");
     _shader->init();
+
+    auto camera = std::make_unique<Camera>();
+    _camera = camera.get();
+    _components.push_back(std::move(camera));
 
     auto cube = std::make_unique<Cube>("texture/lava.jpg");
     cube->init();
@@ -77,6 +98,7 @@ void OpenGLWidget::setupScene()
 void OpenGLWidget::teardownScene()
 {
     _components.clear();
+    _camera = nullptr;
     _shader.reset();
 }
 

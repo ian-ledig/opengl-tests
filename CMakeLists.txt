@@ -46,11 +46,14 @@ add_executable(OpenGLBase
   src/gl/texture.cpp
   src/gl/shader/shader.cpp
   src/gl/shader/graphic_shader.cpp
-
+  
+  src/utils/textureManager.cpp
   src/utils/logger.cpp
 
   src/component/component.cpp
+  src/component/drawableComponent.cpp
   src/component/cube.cpp
+  src/component/camera.cpp
 )
 
 set_property(TARGET OpenGLBase PROPERTY CXX_STANDARD 17)

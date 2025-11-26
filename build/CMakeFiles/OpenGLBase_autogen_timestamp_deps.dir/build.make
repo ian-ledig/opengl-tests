@@ -67,10 +67,10 @@ include CMakeFiles/OpenGLBase_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/OpenGLBase_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/OpenGLBase_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libGLEW.so
+CMakeFiles/OpenGLBase_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/lib/libQt6OpenGLWidgets.so.6.10.0
 CMakeFiles/OpenGLBase_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/libexec/uic
 CMakeFiles/OpenGLBase_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/libexec/moc
 CMakeFiles/OpenGLBase_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/lib/libQt6Widgets.so.6.10.0
-CMakeFiles/OpenGLBase_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/lib/libQt6OpenGLWidgets.so.6.10.0
 CMakeFiles/OpenGLBase_autogen_timestamp_deps: third_party/spdlog/libspdlog.a
 
 OpenGLBase_autogen_timestamp_deps: CMakeFiles/OpenGLBase_autogen_timestamp_deps

@@ -8,6 +8,7 @@
 #include <QMouseEvent>
 #include "gl/shader/graphic_shader.h"
 #include "component/cube.h"
+#include "component/camera.h"
 #include "utils/logger.h"
 #include <memory>
 #include <vector>
@@ -33,9 +34,13 @@ private:
 
     std::unique_ptr<GraphicShader> _shader;
 
+    Camera* _camera;
+    glm::mat4 _projection;
+
     void setupScene();
     void teardownScene();
     void reload();
+    
     virtual void keyPressEvent(QKeyEvent *event) override;
     virtual void mousePressEvent(QMouseEvent *event) override;
 };

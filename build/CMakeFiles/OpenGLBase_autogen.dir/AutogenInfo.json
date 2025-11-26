@@ -412,6 +412,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/ian/dev/opengl-tests/src/component/camera.h",
+			"MU",
+			"FHOFCCN7FJ/moc_camera.cpp",
+			null
+		],
+		[
 			"/home/ian/dev/opengl-tests/src/component/component.h",
 			"MU",
 			"FHOFCCN7FJ/moc_component.cpp",
@@ -421,6 +427,12 @@
 			"/home/ian/dev/opengl-tests/src/component/cube.h",
 			"MU",
 			"FHOFCCN7FJ/moc_cube.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/component/drawableComponent.h",
+			"MU",
+			"FHOFCCN7FJ/moc_drawableComponent.cpp",
 			null
 		],
 		[
@@ -457,6 +469,12 @@
 			"/home/ian/dev/opengl-tests/src/utils/logger.h",
 			"MU",
 			"VSCBVMNR7M/moc_logger.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/utils/textureManager.h",
+			"MU",
+			"VSCBVMNR7M/moc_textureManager.cpp",
 			null
 		],
 		[
@@ -549,8 +567,14 @@
 	"SETTINGS_FILE" : "/home/ian/dev/opengl-tests/build/CMakeFiles/OpenGLBase_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/ian/dev/opengl-tests/src/component/camera.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/component/component.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/component/cube.cpp", "MU", null ],
+		[
+			"/home/ian/dev/opengl-tests/src/component/drawableComponent.cpp",
+			"MU",
+			null
+		],
 		[ "/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp", "MU", null ],
 		[
 			"/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp",
@@ -562,6 +586,7 @@
 		[ "/home/ian/dev/opengl-tests/src/main.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/openGlWidget.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/utils/logger.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/utils/textureManager.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/widget/widgetColor.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/window.cpp", "MU", null ]
 	],

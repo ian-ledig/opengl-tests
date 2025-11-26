@@ -5,10 +5,11 @@
 #include <QObject>
 
 Cube::Cube()
+    : DrawableComponent()
 {
 }
 
-Cube::Cube(const std::string& texturePath) : Component(texturePath)
+Cube::Cube(const std::string& texturePath) : DrawableComponent(texturePath)
 {
 }
 
@@ -49,9 +50,7 @@ void Cube::init()
 
 void Cube::draw(Shader* shader)
 {
-    if (!shader) {
-        return;
-    }
+    DrawableComponent::draw(shader);
 
     shader->setUniformAttrib("color", _color);
 
@@ -90,52 +89,4 @@ void Cube::mousePressEvent(QMouseEvent *event)
             _colorWidget->activateWindow();
         }
     }
-}
-
-bool Cube::isPointInside(float x, float y) const
-{
-    auto vertexAt = [this](GLuint index) {
-        const size_t base = static_cast<size_t>(index) * 3;
-        return glm::vec2{_vertices[base], _vertices[base + 1]};
-    };
-
-    auto pointInTriangle = [](const glm::vec2& p,
-                              const glm::vec2& a,
-                              const glm::vec2& b,
-                              const glm::vec2& c) {
-        const glm::vec2 v0 = c - a;
-        const glm::vec2 v1 = b - a;
-        const glm::vec2 v2 = p - a;
-
-        const float dot00 = glm::dot(v0, v0);
-        const float dot01 = glm::dot(v0, v1);
-        const float dot02 = glm::dot(v0, v2);
-        const float dot11 = glm::dot(v1, v1);
-        const float dot12 = glm::dot(v1, v2);
-
-        const float denom = dot00 * dot11 - dot01 * dot01;
-        if (denom == 0.0f) {
-            return false;
-        }
-
-        const float invDenom = 1.0f / denom;
-        const float u = (dot11 * dot02 - dot01 * dot12) * invDenom;
-        const float v = (dot00 * dot12 - dot01 * dot02) * invDenom;
-
-        return (u >= 0.0f) && (v >= 0.0f) && (u + v <= 1.0f);
-    };
-
-    const glm::vec2 point{x, y};
-
-    const size_t indexCount = sizeof(_indices) / sizeof(_indices[0]);
-    for (size_t i = 0; i < indexCount; i += 3) {
-        const glm::vec2 a = vertexAt(_indices[i]);
-        const glm::vec2 b = vertexAt(_indices[i + 1]);
-        const glm::vec2 c = vertexAt(_indices[i + 2]);
-        if (pointInTriangle(point, a, b, c)) {
-            return true;
-        }
-    }
-
-    return false;
 }

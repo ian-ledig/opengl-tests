@@ -407,10 +407,14 @@ OpenGLBase_autogen/timestamp: \
 	/home/ian/dev/opengl-tests/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/ian/dev/opengl-tests/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/ian/dev/opengl-tests/build/OpenGLBase_autogen/moc_predefs.h \
+	/home/ian/dev/opengl-tests/src/component/camera.cpp \
+	/home/ian/dev/opengl-tests/src/component/camera.h \
 	/home/ian/dev/opengl-tests/src/component/component.cpp \
 	/home/ian/dev/opengl-tests/src/component/component.h \
 	/home/ian/dev/opengl-tests/src/component/cube.cpp \
 	/home/ian/dev/opengl-tests/src/component/cube.h \
+	/home/ian/dev/opengl-tests/src/component/drawableComponent.cpp \
+	/home/ian/dev/opengl-tests/src/component/drawableComponent.h \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.h \
 	/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
@@ -424,6 +428,8 @@ OpenGLBase_autogen/timestamp: \
 	/home/ian/dev/opengl-tests/src/openGlWidget.h \
 	/home/ian/dev/opengl-tests/src/utils/logger.cpp \
 	/home/ian/dev/opengl-tests/src/utils/logger.h \
+	/home/ian/dev/opengl-tests/src/utils/textureManager.cpp \
+	/home/ian/dev/opengl-tests/src/utils/textureManager.h \
 	/home/ian/dev/opengl-tests/src/widget/widgetColor.cpp \
 	/home/ian/dev/opengl-tests/src/widget/widgetColor.h \
 	/home/ian/dev/opengl-tests/src/window.cpp \

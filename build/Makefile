@@ -218,6 +218,30 @@ OpenGLBase_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/OpenGLBase_autogen/mocs_compilation.cpp.s
 .PHONY : OpenGLBase_autogen/mocs_compilation.cpp.s
 
+src/component/camera.o: src/component/camera.cpp.o
+.PHONY : src/component/camera.o
+
+# target to build an object file
+src/component/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/camera.cpp.o
+.PHONY : src/component/camera.cpp.o
+
+src/component/camera.i: src/component/camera.cpp.i
+.PHONY : src/component/camera.i
+
+# target to preprocess a source file
+src/component/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/camera.cpp.i
+.PHONY : src/component/camera.cpp.i
+
+src/component/camera.s: src/component/camera.cpp.s
+.PHONY : src/component/camera.s
+
+# target to generate assembly for a file
+src/component/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/camera.cpp.s
+.PHONY : src/component/camera.cpp.s
+
 src/component/component.o: src/component/component.cpp.o
 .PHONY : src/component/component.o
 
@@ -265,6 +289,30 @@ src/component/cube.s: src/component/cube.cpp.s
 src/component/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/cube.cpp.s
 .PHONY : src/component/cube.cpp.s
+
+src/component/drawableComponent.o: src/component/drawableComponent.cpp.o
+.PHONY : src/component/drawableComponent.o
+
+# target to build an object file
+src/component/drawableComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/drawableComponent.cpp.o
+.PHONY : src/component/drawableComponent.cpp.o
+
+src/component/drawableComponent.i: src/component/drawableComponent.cpp.i
+.PHONY : src/component/drawableComponent.i
+
+# target to preprocess a source file
+src/component/drawableComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/drawableComponent.cpp.i
+.PHONY : src/component/drawableComponent.cpp.i
+
+src/component/drawableComponent.s: src/component/drawableComponent.cpp.s
+.PHONY : src/component/drawableComponent.s
+
+# target to generate assembly for a file
+src/component/drawableComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/component/drawableComponent.cpp.s
+.PHONY : src/component/drawableComponent.cpp.s
 
 src/gl/gl_utils.o: src/gl/gl_utils.cpp.o
 .PHONY : src/gl/gl_utils.o
@@ -434,6 +482,30 @@ src/utils/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/utils/logger.cpp.s
 .PHONY : src/utils/logger.cpp.s
 
+src/utils/textureManager.o: src/utils/textureManager.cpp.o
+.PHONY : src/utils/textureManager.o
+
+# target to build an object file
+src/utils/textureManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/utils/textureManager.cpp.o
+.PHONY : src/utils/textureManager.cpp.o
+
+src/utils/textureManager.i: src/utils/textureManager.cpp.i
+.PHONY : src/utils/textureManager.i
+
+# target to preprocess a source file
+src/utils/textureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/utils/textureManager.cpp.i
+.PHONY : src/utils/textureManager.cpp.i
+
+src/utils/textureManager.s: src/utils/textureManager.cpp.s
+.PHONY : src/utils/textureManager.s
+
+# target to generate assembly for a file
+src/utils/textureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGLBase.dir/build.make CMakeFiles/OpenGLBase.dir/src/utils/textureManager.cpp.s
+.PHONY : src/utils/textureManager.cpp.s
+
 src/widget/widgetColor.o: src/widget/widgetColor.cpp.o
 .PHONY : src/widget/widgetColor.o
 
@@ -499,12 +571,18 @@ help:
 	@echo "... OpenGLBase_autogen/mocs_compilation.o"
 	@echo "... OpenGLBase_autogen/mocs_compilation.i"
 	@echo "... OpenGLBase_autogen/mocs_compilation.s"
+	@echo "... src/component/camera.o"
+	@echo "... src/component/camera.i"
+	@echo "... src/component/camera.s"
 	@echo "... src/component/component.o"
 	@echo "... src/component/component.i"
 	@echo "... src/component/component.s"
 	@echo "... src/component/cube.o"
 	@echo "... src/component/cube.i"
 	@echo "... src/component/cube.s"
+	@echo "... src/component/drawableComponent.o"
+	@echo "... src/component/drawableComponent.i"
+	@echo "... src/component/drawableComponent.s"
 	@echo "... src/gl/gl_utils.o"
 	@echo "... src/gl/gl_utils.i"
 	@echo "... src/gl/gl_utils.s"
@@ -526,6 +604,9 @@ help:
 	@echo "... src/utils/logger.o"
 	@echo "... src/utils/logger.i"
 	@echo "... src/utils/logger.s"
+	@echo "... src/utils/textureManager.o"
+	@echo "... src/utils/textureManager.i"
+	@echo "... src/utils/textureManager.s"
 	@echo "... src/widget/widgetColor.o"
 	@echo "... src/widget/widgetColor.i"
 	@echo "... src/widget/widgetColor.s"
