@@ -19,8 +19,8 @@ public:
 
 protected:
     const float* getVertices() const override { return _vertices; }
-    size_t getVertexCount() const override { return sizeof(_vertices) / (5 * sizeof(float)); }
-    size_t getVertexStride() const override { return 5; }
+    size_t getVertexCount() const override { return sizeof(_vertices) / (8 * sizeof(float)); }
+    size_t getVertexStride() const override { return 8; }
     const GLuint* getIndices() const override { return _indices; }
     size_t getIndexCount() const override { return sizeof(_indices) / sizeof(_indices[0]); }
 
@@ -28,12 +28,12 @@ private:
     GLuint _VAO = 0;
     GLuint _VBO = 0;
     GLuint _EBO = 0;
-    float _vertices[20] = {
-        // x,    y,    z,    u,   v
-        0.5f,  0.5f, 0.0f, 1.0f, 1.0f,
-        0.5f, -0.5f, 0.0f, 1.0f, 0.0f,
-       -0.5f, -0.5f, 0.0f, 0.0f, 0.0f,
-       -0.5f,  0.5f, 0.0f, 0.0f, 1.0f
+    float _vertices[32] = {
+        // x,    y,    z,    nx,   ny,   nz,   u,   v
+        0.5f,  0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f,
+        0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 0.0f,
+       -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
+       -0.5f,  0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f
     };
     GLuint _indices[6] = {
         0, 1, 3,

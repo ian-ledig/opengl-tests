@@ -42,9 +42,11 @@ void Cube::init()
     GL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _EBO));
     GL(glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(_indices), _indices, GL_STATIC_DRAW));
 
-    GL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0));
+    GL(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0));
     GL(glEnableVertexAttribArray(0));
-    GL(glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float))));
+    GL(glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float))));
+    GL(glEnableVertexAttribArray(2));
+    GL(glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float))));
     GL(glEnableVertexAttribArray(1));
 }
 
@@ -53,6 +55,7 @@ void Cube::draw(Shader* shader)
     DrawableComponent::draw(shader);
 
     shader->setUniformAttrib("color", _color);
+    shader->setUniformAttrib("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
 
     const auto texture = getTexture();
     const bool hasTexture = texture != nullptr;

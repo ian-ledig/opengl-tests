@@ -61,6 +61,7 @@ void OpenGLWidget::paintGL()
         _shader->setUniformAttrib("projection", _projection);
         _shader->setUniformAttrib("view", view);
     }
+    _shader->setUniformAttrib("lightPos", _lightPos);
 
     for (const auto& component : _components) {
         if (auto* drawable = dynamic_cast<DrawableComponent*>(component.get())) {
@@ -87,6 +88,8 @@ void OpenGLWidget::setupScene()
     auto cube = std::make_unique<Cube>("texture/lava.jpg");
     cube->init();
     _components.push_back(std::move(cube));
+
+    _lightPos = glm::vec3(1.5f, 1.5f, 2.0f);
 
     resizeGL(width(), height());
 

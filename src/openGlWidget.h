@@ -10,6 +10,7 @@
 #include "component/cube.h"
 #include "component/camera.h"
 #include "utils/logger.h"
+#include <glm/glm.hpp>
 #include <memory>
 #include <vector>
 
@@ -36,6 +37,7 @@ private:
 
     Camera* _camera;
     glm::mat4 _projection;
+    glm::vec3 _lightPos;
 
     void setupScene();
     void teardownScene();

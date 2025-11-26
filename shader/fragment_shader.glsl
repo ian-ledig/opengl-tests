@@ -3,13 +3,23 @@
 out vec4 FragColor;
 
 in vec2 TexCoord;
+in vec3 FragPos;
+in vec3 Normal;
 
 uniform sampler2D textureSampler;
 uniform vec4 color;
+uniform vec3 lightColor;
+uniform vec3 lightPos;
 uniform bool useTexture;
 
 void main()
 {
     vec4 sampled = useTexture ? texture(textureSampler, TexCoord) : vec4(1.0);
-    FragColor = sampled * color;
+    
+    vec3 lightDir = normalize(lightPos - FragPos);
+    
+    float diff = max(dot(Normal, lightDir), 0.0);
+    
+    vec3 lighting = lightColor * diff;
+    FragColor = sampled * color * vec4(lighting, 1.0);
 }
