@@ -4,11 +4,15 @@
 #include <chrono>
 #include <iomanip>
 
-OpenGLWidget::OpenGLWidget() : _camera(nullptr)
+OpenGLWidget::OpenGLWidget() : _historyCount(0), _historyIndex(0), _camera(nullptr)
 {
     setFocusPolicy(Qt::StrongFocus);
     setFocus();
     setMouseTracking(true);
+    // Initialize array to zero
+    for (int i = 0; i < LOAD_DURATION_HISTORY_SIZE; ++i) {
+        _loadDurationHistory[i] = 0.0f;
+    }
 }
 
 OpenGLWidget::~OpenGLWidget() = default;
@@ -51,6 +55,23 @@ void OpenGLWidget::paintGL()
         _labelMs->setText(QString::fromStdString(oss.str()));
     }
 
+    if (_labelMsAver && _historyCount > 0) {
+        float sum = 0.0f;
+        for (int i = 0; i < _historyCount; ++i) {
+            sum += _loadDurationHistory[i];
+        }
+        float average = sum / _historyCount;
+        std::ostringstream oss;
+        oss << std::fixed << std::setprecision(2) << average << " ms (avg)";
+        _labelMsAver->setText(QString::fromStdString(oss.str()));
+    }
+
+    if (_labelReload) {
+        std::ostringstream oss;
+        oss << "(x" << _historyCount << ")";
+        _labelReload->setText(QString::fromStdString(oss.str()));
+    }
+
     GL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
 
     _shader->bind();
@@ -91,13 +112,20 @@ void OpenGLWidget::setupScene()
     cube->init();
     _components.push_back(std::move(cube));
 
-    _lightPos = glm::vec3(1.5f, 1.5f, 2.0f);
+    _lightPos = glm::vec3(0.0f, 1.5f, 2.0f);
 
     resizeGL(width(), height());
 
     _loadEnd = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(_loadEnd - _loadStart);
     _loadDuration = duration.count() / 1000.0;
+
+    // Add to history array
+    _loadDurationHistory[_historyIndex] = static_cast<float>(_loadDuration);
+    _historyIndex = (_historyIndex + 1) % LOAD_DURATION_HISTORY_SIZE;
+    if (_historyCount < LOAD_DURATION_HISTORY_SIZE) {
+        _historyCount++;
+    }
 }
 
 void OpenGLWidget::teardownScene()

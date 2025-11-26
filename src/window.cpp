@@ -30,7 +30,9 @@ Window::Window(std::unique_ptr<QWidget>&& widget) :
     OpenGLWidget* glWidget = dynamic_cast<OpenGLWidget*>(_widget.get());
     if (glWidget) {
         glWidget->_labelMs = _layout->labelMs;
+        glWidget->_labelMsAver = _layout->labelMsAver;
         glWidget->_labelLightPos = _layout->labelLightPos;
+        glWidget->_labelReload = _layout->labelReload;
     }
 }
 

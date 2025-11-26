@@ -14,10 +14,14 @@
 #include <memory>
 #include <vector>
 
+#define LOAD_DURATION_HISTORY_SIZE 200
+
 class OpenGLWidget : public QOpenGLWidget {
 public:
     QLabel* _labelMs;
+    QLabel* _labelMsAver;
     QLabel* _labelLightPos;
+    QLabel* _labelReload;
 
     OpenGLWidget();
     ~OpenGLWidget();
@@ -31,6 +35,10 @@ private:
     std::chrono::high_resolution_clock::time_point _loadEnd;
 
     double _loadDuration;
+
+    float _loadDurationHistory[LOAD_DURATION_HISTORY_SIZE];
+    int _historyCount;
+    int _historyIndex;
 
     std::vector<std::unique_ptr<Component>> _components;
 
