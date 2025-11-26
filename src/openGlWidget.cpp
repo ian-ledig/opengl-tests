@@ -63,6 +63,9 @@ void OpenGLWidget::paintGL()
     }
     _shader->setUniformAttrib("lightPos", _lightPos);
 
+    _shader->setUniformAttrib("material.ambient", glm::vec3(0.24725f, 0.1995f, 0.0745f));
+    _shader->setUniformAttrib("material.diffuse", glm::vec3(0.75164f, 0.60648f, 0.22648f));
+
     for (const auto& component : _components) {
         if (auto* drawable = dynamic_cast<DrawableComponent*>(component.get())) {
             drawable->setProjectionMatrix(_projection);
@@ -85,7 +88,7 @@ void OpenGLWidget::setupScene()
     _camera = camera.get();
     _components.push_back(std::move(camera));
 
-    auto cube = std::make_unique<Cube>("texture/lava.jpg");
+    auto cube = std::make_unique<Cube>("texture/gold.jpg");
     cube->init();
     _components.push_back(std::move(cube));
 
