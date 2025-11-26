@@ -17,6 +17,7 @@
 class OpenGLWidget : public QOpenGLWidget {
 public:
     QLabel* _labelMs;
+    QLabel* _labelLightPos;
 
     OpenGLWidget();
     ~OpenGLWidget();

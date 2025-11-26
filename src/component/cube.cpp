@@ -62,7 +62,7 @@ void Cube::draw(Shader* shader)
     if (hasTexture) {
         GL(glActiveTexture(GL_TEXTURE0));
         texture->bind();
-        shader->setUniformAttrib("textureSampler", 0);
+        shader->setUniformAttrib("material.diffuse", 0);
     }
     shader->setUniformAttrib("useTexture", hasTexture);
 

@@ -64,7 +64,6 @@ void OpenGLWidget::paintGL()
     _shader->setUniformAttrib("lightPos", _lightPos);
 
     _shader->setUniformAttrib("material.ambient", glm::vec3(0.24725f, 0.1995f, 0.0745f));
-    _shader->setUniformAttrib("material.diffuse", glm::vec3(0.75164f, 0.60648f, 0.22648f));
 
     for (const auto& component : _components) {
         if (auto* drawable = dynamic_cast<DrawableComponent*>(component.get())) {
@@ -123,6 +122,24 @@ void OpenGLWidget::keyPressEvent(QKeyEvent *event)
         case Qt::Key_F5:
             reload();
             return;
+        case Qt::Key_Left:
+            _lightPos.x -= 1.0f;
+            if (_labelLightPos) {
+                std::ostringstream oss;
+                oss << std::fixed << std::setprecision(2) << _lightPos.x;
+                _labelLightPos->setText(QString::fromStdString(oss.str()));
+            }
+            update();
+            break;
+        case Qt::Key_Right:
+            _lightPos.x += 1.0f;
+            if (_labelLightPos) {
+                std::ostringstream oss;
+                oss << std::fixed << std::setprecision(2) << _lightPos.x;
+                _labelLightPos->setText(QString::fromStdString(oss.str()));
+            }
+            update();
+            break;
         default:
             break;
     }

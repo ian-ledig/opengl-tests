@@ -29,8 +29,13 @@ public:
     QHBoxLayout *horizontalLayout;
     QLabel *labelMsInfo;
     QLabel *labelMs;
+    QSpacerItem *horizontalSpacer_3;
+    QLabel *labelLightPosInfo;
+    QLabel *labelLightPos;
     QSpacerItem *horizontalSpacer;
     QLabel *labelReload;
+    QSpacerItem *horizontalSpacer_2;
+    QLabel *labelDirection;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -56,6 +61,21 @@ public:
 
         horizontalLayout->addWidget(labelMs);
 
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_3);
+
+        labelLightPosInfo = new QLabel(widget);
+        labelLightPosInfo->setObjectName("labelLightPosInfo");
+
+        horizontalLayout->addWidget(labelLightPosInfo);
+
+        labelLightPos = new QLabel(widget);
+        labelLightPos->setObjectName("labelLightPos");
+        labelLightPos->setStyleSheet(QString::fromUtf8("color: green;"));
+
+        horizontalLayout->addWidget(labelLightPos);
+
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
@@ -65,6 +85,16 @@ public:
         labelReload->setStyleSheet(QString::fromUtf8("color: gray;"));
 
         horizontalLayout->addWidget(labelReload);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+        labelDirection = new QLabel(widget);
+        labelDirection->setObjectName("labelDirection");
+        labelDirection->setStyleSheet(QString::fromUtf8("color: grey;"));
+
+        horizontalLayout->addWidget(labelDirection);
 
 
         verticalLayout->addWidget(widget, 0, Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop);
@@ -81,7 +111,10 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         labelMsInfo->setText(QCoreApplication::translate("MainWindow", "Loading time: ", nullptr));
         labelMs->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
+        labelLightPosInfo->setText(QCoreApplication::translate("MainWindow", "Light position:", nullptr));
+        labelLightPos->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         labelReload->setText(QCoreApplication::translate("MainWindow", "Reload: F5", nullptr));
+        labelDirection->setText(QCoreApplication::translate("MainWindow", "Move light: \342\206\220, \342\206\222", nullptr));
     } // retranslateUi
 
 };
