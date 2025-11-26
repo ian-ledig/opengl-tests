@@ -19,6 +19,5 @@ void main()
     gl_Position = projection * view * worldPos;
     TexCoord = aTexCoord;
     
-    mat3 normalMatrix = mat3(transpose(inverse(model)));
-    Normal = normalize(normalMatrix * aNormal);
+    Normal = mat3(transpose(inverse(model))) * aNormal;
 }
