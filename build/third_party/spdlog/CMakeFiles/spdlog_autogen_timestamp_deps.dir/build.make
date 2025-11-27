@@ -66,8 +66,8 @@ include third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps.dir/compiler
 # Include the progress variables for this target.
 include third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps.dir/progress.make
 
-third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/libexec/uic
 third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/libexec/moc
+third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps: /home/ian/Qt/6.10.0/gcc_64/libexec/uic
 
 spdlog_autogen_timestamp_deps: third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps
 spdlog_autogen_timestamp_deps: third_party/spdlog/CMakeFiles/spdlog_autogen_timestamp_deps.dir/build.make

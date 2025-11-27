@@ -415,8 +415,14 @@ OpenGLBase_autogen/timestamp: \
 	/home/ian/dev/opengl-tests/src/component/cube.h \
 	/home/ian/dev/opengl-tests/src/component/drawableComponent.cpp \
 	/home/ian/dev/opengl-tests/src/component/drawableComponent.h \
+	/home/ian/dev/opengl-tests/src/gl/framebuffer.cpp \
+	/home/ian/dev/opengl-tests/src/gl/framebuffer.h \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp \
 	/home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+	/home/ian/dev/opengl-tests/src/gl/mesh.cpp \
+	/home/ian/dev/opengl-tests/src/gl/mesh.h \
+	/home/ian/dev/opengl-tests/src/gl/shader/compute_shader.cpp \
+	/home/ian/dev/opengl-tests/src/gl/shader/compute_shader.h \
 	/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp \
 	/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.h \
 	/home/ian/dev/opengl-tests/src/gl/shader/shader.cpp \

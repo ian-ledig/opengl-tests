@@ -44,8 +44,11 @@ add_executable(OpenGLBase
 
   src/gl/gl_utils.cpp
   src/gl/texture.cpp
+  src/gl/mesh.cpp
   src/gl/shader/shader.cpp
   src/gl/shader/graphic_shader.cpp
+  src/gl/shader/compute_shader.cpp
+  src/gl/framebuffer.cpp
   
   src/utils/textureManager.cpp
   src/utils/logger.cpp

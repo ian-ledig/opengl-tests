@@ -436,9 +436,27 @@
 			null
 		],
 		[
+			"/home/ian/dev/opengl-tests/src/gl/framebuffer.h",
+			"MU",
+			"FONZTXGS3D/moc_framebuffer.cpp",
+			null
+		],
+		[
 			"/home/ian/dev/opengl-tests/src/gl/gl_utils.h",
 			"MU",
 			"FONZTXGS3D/moc_gl_utils.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/gl/mesh.h",
+			"MU",
+			"FONZTXGS3D/moc_mesh.cpp",
+			null
+		],
+		[
+			"/home/ian/dev/opengl-tests/src/gl/shader/compute_shader.h",
+			"MU",
+			"3EO3HGL2XD/moc_compute_shader.cpp",
 			null
 		],
 		[
@@ -575,7 +593,14 @@
 			"MU",
 			null
 		],
+		[ "/home/ian/dev/opengl-tests/src/gl/framebuffer.cpp", "MU", null ],
 		[ "/home/ian/dev/opengl-tests/src/gl/gl_utils.cpp", "MU", null ],
+		[ "/home/ian/dev/opengl-tests/src/gl/mesh.cpp", "MU", null ],
+		[
+			"/home/ian/dev/opengl-tests/src/gl/shader/compute_shader.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/ian/dev/opengl-tests/src/gl/shader/graphic_shader.cpp",
 			"MU",

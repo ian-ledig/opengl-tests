@@ -3,12 +3,15 @@
 #include <GL/glew.h>
 #include <QOpenGLWidget>
 #include "gl/gl_utils.h"
+#include "gl/mesh.h"
 #include <QLabel>
 #include <QKeyEvent>
 #include <QMouseEvent>
 #include "gl/shader/graphic_shader.h"
+#include "gl/shader/compute_shader.h"
 #include "component/cube.h"
 #include "component/camera.h"
+#include "gl/framebuffer.h"
 #include "utils/logger.h"
 #include <glm/glm.hpp>
 #include <memory>
@@ -36,13 +39,26 @@ private:
 
     double _loadDuration;
 
+	bool _grayscale = false;
+	bool _blur = false;
+
     float _loadDurationHistory[LOAD_DURATION_HISTORY_SIZE];
     int _historyCount;
     int _historyIndex;
 
+    gl::Framebuffer _framebuffer;
+
     std::vector<std::unique_ptr<Component>> _components;
 
     std::unique_ptr<GraphicShader> _shader;
+    std::unique_ptr<GraphicShader> _screenShader;
+	std::unique_ptr<ComputeShader> _blurComputeShaderX;
+	std::unique_ptr<ComputeShader> _blurComputeShaderY;
+
+	GLuint _blurTextureX = 0;
+    GLuint _blurTextureY = 0;
+
+    std::unique_ptr<Mesh> _quad;
 
     Camera* _camera;
     glm::mat4 _projection;

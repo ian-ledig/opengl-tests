@@ -5,7 +5,11 @@
 ### Current Version Average Time
 
 
-**Average Load Time:** 2.94 ms
+**Average Load Time:**
+- 6.76 ms - Base
+- 6.80 ms - Grayscale
+- 6.85 ms - Blur
+- 7.07 ms - Grayscale + Blur
 
 ---
 

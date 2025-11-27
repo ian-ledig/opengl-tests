@@ -412,6 +412,7 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qopengl.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtGui/qopenglext.h \
  /usr/include/inttypes.h /home/ian/dev/opengl-tests/src/gl/gl_utils.h \
+ /home/ian/dev/opengl-tests/src/gl/mesh.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/QLabel \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qlabel.h \
  /home/ian/Qt/6.10.0/gcc_64/include/QtWidgets/qframe.h \
@@ -585,6 +586,7 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /usr/local/include/glm/detail/type_half.inl \
  /usr/local/include/glm/integer.hpp \
  /usr/local/include/glm/detail/func_integer.inl \
+ /home/ian/dev/opengl-tests/src/gl/shader/compute_shader.h \
  /home/ian/dev/opengl-tests/src/component/cube.h \
  /home/ian/dev/opengl-tests/src/component/drawableComponent.h \
  /home/ian/dev/opengl-tests/src/component/component.h \
@@ -602,6 +604,7 @@ CMakeFiles/OpenGLBase.dir/src/window.cpp.o: \
  /usr/local/include/glm/ext/matrix_transform.inl \
  /usr/local/include/glm/gtc/matrix_transform.inl \
  /home/ian/dev/opengl-tests/src/component/camera.h \
+ /home/ian/dev/opengl-tests/src/gl/framebuffer.h \
  /home/ian/dev/opengl-tests/src/utils/logger.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async.h \
  /home/ian/dev/opengl-tests/third_party/spdlog/include/spdlog/async_logger.h \
